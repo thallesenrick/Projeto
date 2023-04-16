@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+};
+
+@layer components {
+    .tamanhos {
+        @apply mx-4 md:mx-10 xl:mx-28 2xl:mx-40 3xl:mx-60
+    }
+
+    .header {
+        @apply z-10 bg-black bg-opacity-30 text-white text-xs uppercase 
+    }
+
+   
+
+    .nav-menu {
+        @apply z-10 hidden bg-secundary-900 divide-y divide-gray-100 rounded-lg shadow-2xl w-72 overflow-hidden text-white
+    }
+
+    .nav-item {
+        @apply text-white  uppercase text-center  items-center btn-header inline-flex w-max
+    }
+
+
+    .nav-option {
+        @apply text-white border-b 
+    }
+
+    .banner {
+        @apply absolute w-full object-cover object-top mix-blend-overlay z-0 bg-center brightness-50 h-[800px] 
+    }
+
+    .barra-pesquisar {
+        @apply w-[335px] md:w-[450px] lg:w-[780px] text-graylight p-2.5 -mt-1 bg-white z-10 rounded-l-md
+    }
+
+    .card-index {
+        @apply bg-white px-6 md:px-10 md:rounded-md md:ml-5 shadow-xl relative overflow-hidden mt-1 md:mt-0 effect-zoom
+    }
+
+    .btn-options-transicao {
+        @apply bg-gradient-to-r from-secundary-900 to-red-500 bg-no-repeat [background-position:0_100%] [background-size:100%_0.01em] 
+        motion-safe:transition-all motion-safe:duration-500 hover:[background-size:100%_100%] focus:[background-size:100%_100%] 
+        rounded-full shadow-2xl border-2 border-white text-[#9d6227] hover:text-white
+    }
+
+    .btn-options-transicao2 {
+        @apply bg-gradient-to-r from-primary-900 to-green-500 bg-no-repeat [background-position:0_100%] [background-size:100%_0.01em] 
+        motion-safe:transition-all motion-safe:duration-500 hover:[background-size:100%_100%] focus:[background-size:100%_100%] 
+        rounded-full shadow-2xl border-2 border-primary-900 text-primary-900 hover:text-white
+    }
+
+    .navbar-menu-mobile {
+        @apply flex flex-col lg:flex-row absolute lg:static mt-20 lg:mt-0 w-full lg:w-auto  z-30 items-center
+        lg:space-x-7 bg-secundary-900 lg:bg-transparent text-center  space-y-6 p-4 lg:p-0 lg:space-y-0 shadow-xl lg:shadow-none
+    }
+
+    .detalhe-titulo-sessao-index {
+        @apply bg-primary-900 w-full h-1 rounded-full shadow-xl
+    }
+
+    .botao-background {
+        @apply rounded-full px-5 py-5 items-center md:flex md:mx-auto  shadow-2xl btn-options-transicao text-white w-12 h-14 justify-center
+    }
+
+    .botao-background2 {
+        @apply rounded-full px-5 py-5 items-center md:flex md:mx-auto  shadow-2xl btn-options-transicao2
+    }
+
+    .botao-background3 {
+        @apply rounded-full items-center flex shadow-2xl btn-options-transicao2 justify-center
+    }
+
+    .btn-header {
+        @apply inline-block relative cursor-pointer transition-all duration-75 before:content-[''] before:absolute before:-bottom-1 
+        before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all 
+        before:duration-300 before:bg-gradient-to-r before:from-white before:to-white hover:before:w-full hover:before:opacity-100
+    }
+
+    .effect-zoom {
+        @apply lg:hover:scale-105 lg:transition lg:duration-150 lg:ease-in-out
+    }
+
+    .grid-index {
+        @apply grid grid-cols-1 md:grid-cols-2 mt-40 md:mt-20 xl:-mt-2
+    }
+
+    .float {
+        @apply  z-[200]  flex items-center justify-center fixed w-[60px] h-[60px] bg-secundary-100 animate-pulse text-white text-center shadow-[2px_2px_3px_#999] rounded-[50px] right-4 md:right-10 bottom-10;
+      }
+
+        
+    
+      }
+    
+    
+

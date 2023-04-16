@@ -1,0 +1,540 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+   
+  </style>
+</head>
+<body>
+</head>
+<body class="font-montserrat">
+  <div class="w-full 
+   z-[200] bg-gradient-to-b from-primary-500 to-primary-600">
+    <nav class=" tamanhos lg:px-10 py-4 rounded">
+      <div class="container flex flex-wrap items-center justify-between mx-auto">
+        <div class="flex">
+          <img src="img/logo2.png" class="w-[80px]" alt="">
+          <img src="img/logo3.png" class="h-[80px]" alt="">
+        </div>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden bg-gray-100 focus:outline-none" aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
+            <li>
+              <a href="#" class="block py-2 text-white rounded md:bg-transparent  md:p-0 lg:text-lg" aria-current="page">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#anchor_1" class="block py-2 text-white md:hover:bg-transparent md:border-0 md:p-0 lg:text-lg">
+                Passeios Turísticos
+              </a>
+            </li>
+            <li>
+              <a href="#anchor_2" class="block py-2 text-white md:hover:bg-transparent md:border-0 md:p-0 lg:text-lg">
+                Contatos
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="default-carousel" class="w-full h-[700px] object-cover object-center relative  z-[100]" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative  overflow-hidden h-[700px]">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="img/banner_index.jpg" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-50 object-cover object-center">
+          <div class="absolute top-40 w-full flex justify-center">
+            <p class="text-white text-2xl font-semibold">Seja bem vindo!</p>
+          </div>
+          <div class="absolute top-60 md:top-72 lg:top-60 w-full flex justify-center">
+            <p class="text-white text-4xl md:text-5xl font-semibold uppercase lg:mx-48 text-center">Oferecemos momentos unicos no Ceará</p>
+          </div>
+          <a href="#anchor_1">
+            <div class="absolute top-[510px] lg:top-[430px] w-full flex justify-center">
+              <div class="bg-gradient-to-r from-secundary-100 to-secundary-200 rounded-full p-4 effect-zoom">
+                <p class="text-white px-10"><i class="fa fa-search mr-2"></i>VER PASSEIOS</p>
+              </div>
+            </div>
+          </a>
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="img/caf5443a-60c8-442a-bca4-ae9afc154fea.jpg" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-50 object-cover object-center">
+        <div class="absolute top-40 w-full flex justify-center">
+          <p class="text-white text-2xl font-semibold">Passeios Incríveis, Confira !!!</p>
+        </div>
+        <div class="absolute top-60 md:top-72 lg:top-60 w-full flex justify-center">
+          <p class="text-white text-4xl md:text-5xl font-semibold uppercase mx-10 lg:mx-48 text-center">Os melhores Oraçamentos</p>
+        </div>
+        <p class="text-white top-96 md:top-[480px] lg:top-80 absolute mx-10 md:mx-20 lg:mx-60 border-l-8 pl-5">
+          JERICOACOARA, CANOA QUEBRADA, CUMBUCO, LAGOINHA, CARIBE DO CEARÁ, BEACH PARK, FORTIM,  E ETC.
+          CITY TOUR ESPECIAL COM MOTORISTA GUIA.
+          REALIZAMOS TODOS OS PASSEIOS E TRANSFER.
+        </p>
+        <a href="#anchor_1">
+          <div class="absolute top-[900px] lg:top-[430px] w-full flex justify-center">
+            <div class="bg-gradient-to-r from-secundary-100 to-secundary-200 rounded-full p-4 effect-zoom">
+              <p class="text-white px-10"><i class="fa fa-search mr-2"></i>VER PASSEIOS</p>
+            </div>
+          </div>
+        </a>
+      </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="img/8a86b905e6e6b41511fd1108e6d50ca5.jpg" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 brightness-50 object-center object-cover">
+          <div class="absolute top-20 md:top-40 lg:top-40 w-full flex justify-center">
+            <p class="text-white text-2xl font-semibold">Saída todos os dias</p>
+          </div>
+          <div class="absolute top-40 md:top-72 lg:top-60 w-full flex justify-center">
+            <p class="text-white text-4xl md:text-5xl font-semibold uppercase mx-10 lg:mx-48 text-center">Conheças as melhores praias e desfrute de passeios inesquecíveis</p>
+          </div>
+          <a href="#anchor_1">
+            <div class="absolute top-[510px] lg:top-[430px] w-full flex justify-center">
+              <div class="bg-gradient-to-r from-secundary-100 to-secundary-200 rounded-full p-4 effect-zoom">
+                <p class="text-white px-10"><i class="fa fa-search mr-2"></i>VER PASSEIOS</p>
+              </div>
+            </div>
+          </a>
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+      <button type="button" class="w-12 h-1.5 rounded-sm" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-12 h-1.5 rounded-sm" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-12 h-1.5 rounded-sm" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+  </div>
+  
+</div>
+<div class="tamanhos justify-center" id="anchor_1">
+  <div class="flex justify-center mt-16 lg:mt-28">
+    <p class="text-primary-700 font-medium md:text-3xl lg:text-4xl">Temos o passeio</p>
+    <p class="text-primary-700 font-bold md:text-3xl lg:text-4xl ml-2">perfeito para você!</p>
+  </div>
+  <div class="flex justify-center mt-5">
+    <p class="w-20 h-1 bg-secundary-100"></p>
+  </div>
+</div>
+
+<div class="grid  lg:grid-cols-3 gap-10 tamanhos mt-20">
+  <div class="bg-white shadow-xl rounded-2xl">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+           <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/morro branco 2.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/morro branco 1.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/morro branco 3.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+      </div>
+      <!-- Slider controls -->
+      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              <span class="sr-only">Previous</span>
+          </span>
+      </button>
+      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              <span class="sr-only">Next</span>
+          </span>
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <p class="text-secundary-100 font-semibold text-xl m-6">Morro Branco</p>
+    </div>
+    <div class="flex justify-center mt-5">
+      <p class="w-10 h-1 bg-primary-500"></p>
+    </div>
+    <p class="mx-20 text-center font-medium text-gray-500 mt-8">Passeio para Morro Branco com ida e volta no mesmo dia</p>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+      <div class="w-full flex justify-center my-10">
+        <div class="bg-gradient-to-r from-secundary-100 flex items-center to-secundary-200 rounded-full py-4 effect-zoom px-10">
+          <img src="img/whatsapp.png" class="mr-4 w-6 h-6"> 
+          <p class="text-white">SAIBA MAIS</p>
+          </div>
+      </div>
+    </a>
+  </div>
+  <div class="bg-white shadow-xl rounded-2xl">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+           <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/canoa quebrada 1.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/canoa quebrada  2.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/canoa quebrada 3.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+      </div>
+      <!-- Slider controls -->
+      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              <span class="sr-only">Previous</span>
+          </span>
+      </button>
+      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              <span class="sr-only">Next</span>
+          </span>
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <p class="text-secundary-100 font-semibold text-xl m-6">Canoa Quebrada</p>
+    </div>
+    <div class="flex justify-center mt-5">
+      <p class="w-10 h-1 bg-primary-500"></p>
+    </div>
+    <p class="mx-20 text-center font-medium text-gray-500 mt-8">Passeio para Canoa Quebrada com ida e volta no mesmo dia</p>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+      <div class="w-full flex justify-center my-10">
+        <div class="bg-gradient-to-r from-secundary-100 flex items-center to-secundary-200 rounded-full py-4 effect-zoom px-10">
+          <img src="img/whatsapp.png" class="mr-4 w-6 h-6"> 
+          <p class="text-white">SAIBA MAIS</p>
+          </div>
+      </div>
+    </a>
+  </div>
+  <div class="bg-white shadow-xl rounded-2xl">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+           <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/praia dos fontes 1.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/praia dos fontes 2.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/praia das fontes 3.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+      </div>
+      <!-- Slider controls -->
+      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              <span class="sr-only">Previous</span>
+          </span>
+      </button>
+      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              <span class="sr-only">Next</span>
+          </span>
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <p class="text-secundary-100 font-semibold text-xl m-6">Praia das Fontes</p>
+    </div>
+    <div class="flex justify-center mt-5">
+      <p class="w-10 h-1 bg-primary-500"></p>
+    </div>
+    <p class="mx-20 text-center font-medium text-gray-500 mt-8">Passeio para Praia das Fontes com ida e volta no mesmo dia</p>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+      <div class="w-full flex justify-center my-10">
+        <div class="bg-gradient-to-r from-secundary-100 flex items-center to-secundary-200 rounded-full py-4 effect-zoom px-10">
+          <img src="img/whatsapp.png" class="mr-4 w-6 h-6"> 
+          <p class="text-white">SAIBA MAIS</p>
+          </div>
+      </div>
+    </a>
+  </div>
+  <div class="bg-white shadow-xl rounded-2xl">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+           <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/jeri 1.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/jeri 2.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/jeri 3.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+      </div>
+      <!-- Slider controls -->
+      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              <span class="sr-only">Previous</span>
+          </span>
+      </button>
+      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              <span class="sr-only">Next</span>
+          </span>
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <p class="text-secundary-100 font-semibold text-xl m-6">Jericoacoara</p>
+    </div>
+    <div class="flex justify-center mt-5">
+      <p class="w-10 h-1 bg-primary-500"></p>
+    </div>
+    <p class="mx-20 text-center font-medium text-gray-500 mt-8">Passeio para Jericoacora com ida e volta no mesmo dia</p>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+      <div class="w-full flex justify-center my-10">
+        <div class="bg-gradient-to-r from-secundary-100 flex items-center to-secundary-200 rounded-full py-4 effect-zoom px-10">
+          <img src="img/whatsapp.png" class="mr-4 w-6 h-6"> 
+          <p class="text-white">SAIBA MAIS</p>
+          </div>
+      </div>
+    </a>
+  </div>
+  <div class="bg-white shadow-xl rounded-2xl">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+           <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/cumbuco 1.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/cumbuco 2.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/cumbuco 3.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+      </div>
+      <!-- Slider controls -->
+      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              <span class="sr-only">Previous</span>
+          </span>
+      </button>
+      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              <span class="sr-only">Next</span>
+          </span>
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <p class="text-secundary-100 font-semibold text-xl m-6">Cumbuco</p>
+    </div>
+
+    <div class="flex justify-center mt-5">
+      <p class="w-10 h-1 bg-primary-500"></p>
+    </div>
+    <p class="mx-20 text-center font-medium text-gray-500 mt-8">Passeio para Jericoacora com ida e volta no mesmo dia</p>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+      <div class="w-full flex justify-center my-10">
+        <div class="bg-gradient-to-r from-secundary-100 flex items-center to-secundary-200 rounded-full py-4 effect-zoom px-10">
+          <img src="img/whatsapp.png" class="mr-4 w-6 h-6"> 
+          <p class="text-white">SAIBA MAIS</p>
+          </div>
+      </div>
+    </a>
+  </div>
+  <div class="bg-white shadow-xl rounded-2xl">
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+           <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/praia do futuro 1.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/praia do futuro 2.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/praia do futuro 3.jpeg" class="absolute block w-full h-full object-cover object-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+      </div>
+      <!-- Slider controls -->
+      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              <span class="sr-only">Previous</span>
+          </span>
+      </button>
+      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              <span class="sr-only">Next</span>
+          </span>
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <p class="text-secundary-100 font-semibold text-xl m-6">Praia do Futuro</p>
+    </div>
+    <div class="flex justify-center mt-5">
+      <p class="w-10 h-1 bg-primary-500"></p>
+    </div>
+    <p class="mx-20 text-center font-medium text-gray-500 mt-8">Passeio para Jericoacora com ida e volta no mesmo dia. A partir de:</p>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+      <div class="w-full flex justify-center my-10">
+        <div class="bg-gradient-to-r from-secundary-100 flex items-center to-secundary-200 rounded-full py-4 effect-zoom px-10">
+          <img src="img/whatsapp.png" class="mr-4 w-6 h-6"> 
+          <p class="text-white">SAIBA MAIS</p>
+          </div>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="lg:flex lg:relative mt-20 lg:mt-14 mb-32 overflow-hidden">
+  <div class="w-full lg:w-[940px] h-[500px] md:h-[430px] bg-gradient-to-b from-primary-800 to-primary-700  lg:mt-32 shadow-xl rounded-2xl -ml-12 lg:-ml-20 overflow-hidden">
+    <p class="text-white ml-20 lg:ml-[250px] 3xl:ml-[320px] mr-[20px] lg:mr-[700px] text-lg lg:text-2xl font-semibold mt-16">Faça uma pausa para conferir<br>
+      Esse vídeo que fizemos em um de nossos passeios</p>
+      <p class="text-white ml-20 lg:ml-[250px] 3xl:ml-[320px] w-[500px] mt-10 font-light">Paisagem maravilhosa, água morna, e muita diversão.</p>
+      <p class="text-white ml-20 lg:ml-[250px] 3xl:ml-[320px] w-[200px] mt-3 font-light">Clique para conferir</p>
+      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+        <div class="mt-10 w-[195px] ml-20 lg:ml-[250px] 3xl:ml-[320px] z-10 absolute">
+          <div class="bg-gradient-to-r from-primary-600 to-primary-500 rounded-full flex items-center justify-center p-4 effect-zoom w-[240px] ">
+            <img src="img/whatsapp.png" class="mr-4 w-6 h-6"> 
+            <p class="text-white">CONFIRA JÁ</p>
+          </div>
+        </div>
+      </a>
+  </div>
+  <video src="img/video_index.mp4" muted loop autoplay class="w-[400px] md:w-[800px] 3xl:w-[1000px] mx-12 -mt-20 lg:mt-10 lg:absolute top-0 right-0 shadow-xl rounded-2xl -mr-10 h-[460px] object-cover object-center"></video>
+</div>
+
+<div class="flex justify-center mt-16 lg:mt-28">
+  <p class="text-primary-700 font-medium md:text-3xl lg:text-4xl">Confira nossos</p>
+  <p class="text-primary-700 font-bold md:text-3xl lg:text-4xl ml-2">outros serviços</p>
+</div>
+<div class="flex justify-center mt-5 mb-20">
+  <p class="w-20 h-1 bg-secundary-100"></p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 tamanhos mb-32">
+  
+<a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="../src/img/aeroporto.jpeg" alt="">
+  <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary-700 dark:text-white">Transfer</h5>
+  </div>
+</a>
+<a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="../src/img/transfer.jpg" alt="">
+  <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary-700 dark:text-white">Transporte</h5>
+  </div>
+</a>
+<a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="../src/img/istockphoto-1221473473-1024x1024-transformed.jpeg" alt="">
+  <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary-700 dark:text-white">Coorporativo</h5>
+  </div>
+</a>
+<a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="../src/img/istockphoto-925189838-2048x2048.jpg" alt="">
+  <div class="flex flex-col justify-between p-4 leading-normal">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-primary-700 dark:text-white">Eventos</h5>
+   </div>
+</a>
+
+
+</div>
+
+
+<div class=" bg-secundary-200 py-5" id="anchor_2">
+  <footer class=" dark:bg-gray-900 tamanhos">
+    <div class="mx-auto w-full container">
+      <div class="lg:flex items-center">
+          <img src="img/logo1.png" class="w-96" alt="">
+          <div class="lg:ml-20 3xl:ml-32 3xl:mr-16 lg:border-r pb-5 md:pb-0 lg:pr-5">
+            <p class="mt-10 text-white">Entre em contato conosco:</p>
+            <div class="lg:flex mt-7">
+              <div class=" flex items-center mr-5 mt-5 lg:mt-0">    
+                <div class="bg-secundary-100 rounded-full flex items-center justify-center shadow-xl">
+                  <img src="img/whatsapp.png" class="p-3"> 
+                </div>
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+                  <p class="ml-2 text-white hover:underline">(85) 98196708</p>
+                </a>
+              </div>
+              <div class=" flex items-center mr-5 mt-5 lg:mt-0">    
+                <div class="bg-secundary-100 rounded-full flex items-center justify-center shadow-xl">
+                  <img src="img/whatsapp.png" class="p-3"> 
+                </div>
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558592440449" target="_blank">
+                  <p class="ml-2 text-white hover:underline">(85) 992440449</p>
+                </a>
+              </div>
+            </div>
+              <div class=" flex items-center mt-5">    
+                <div class="bg-secundary-100 rounded-full flex items-center justify-center shadow-xl">
+                  <img src="img/mapa.png" class="p-2"> 
+                </div>
+                <p class="ml-2 text-white">Fortaleza (CE)</p>
+              </div>
+          </div>
+          <div class="lg:ml-10 lg:mt-3">
+            <p class="text-white">Siga também nossas redes sociais</p>
+            <div class="flex space-x-2 mt-5">
+              <a href="https://instagram.com/freitastransporteturismo?igshid=ZDdkNTZiNTM=" target="_blank">
+                <div class="bg-secundary-100 rounded-full flex items-center justify-center shadow-xl effect-zoom">
+                  <img src="img/instagram.png" class="p-3"> 
+                </div>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100028818632968&mibextid=ZbWKwL" target="_blank">
+                <div class="bg-secundary-100 rounded-full flex items-center justify-center shadow-xl effect-zoom">
+                  <img src="img/facebook.png" class="p-3"> 
+                </div>
+              </a>
+            </div>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank">
+              <div class="bg-secundary-100 rounded-full p-2 py-3.5 effect-zoom mt-6 flex justify-center shadow-xl">
+                <p class="text-white px-2"><i class="fa-duotone fa-chevrons-right mr-2 text-sm "></i>SOLICITE UM ORÇAMENTO</p>
+              </div>
+            </a>
+          </div>
+      </div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=558598196708" target="_blank" class="float">
+      <img src="img/whatsapp.png" class=" my-float"> 
+    </a>
+    
+  </footer>
+</div>
+<script src="https://kit-pro.fontawesome.com/releases/v5.10.1/js/pro.min.js" data-auto-fetch-svg></script>
+
+  <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+</body>
+</html>
